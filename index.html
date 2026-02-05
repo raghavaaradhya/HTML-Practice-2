@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce Product Page</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🛒 Product Store</h1>
+  <p>Browse products with sorting and filtering.</p>
+
+  <!-- ✅ Controls Section -->
+  <div class="controls">
+
+    <!-- Filter Dropdown -->
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Fashion">Fashion</option>
+      <option value="Books">Books</option>
+      <option value="Home">Home</option>
+    </select>
+
+    <!-- Sort Dropdown -->
+    <select id="sortOption">
+      <option value="default">Sort By</option>
+      <option value="priceAsc">Price: Low → High</option>
+      <option value="priceDesc">Price: High → Low</option>
+      <option value="nameAsc">Name: A → Z</option>
+      <option value="nameDesc">Name: Z → A</option>
+      <option value="ratingAsc">Rating: Low → High</option>
+      <option value="ratingDesc">Rating: High → Low</option>
+    </select>
+
+  </div>
+
+  <!-- ✅ Product List -->
+  <div id="productContainer" class="products"></div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+    <!-- ✅ Footer Section -->
+  <footer>
+    <p>Made by <b>AMAN G</b></p>
+    <p>Roll No: <b>24BDA70122</b></p>
+  </footer>
+
+</body>
+</html>
